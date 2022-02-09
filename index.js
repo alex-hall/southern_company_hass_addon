@@ -2,8 +2,12 @@ const express = require("express")
 
 const port = 8000;
 
-const webservice = express()
+const app = express()
 
 console.log(`Starting listener on port ${port}.`)
 
-webservice.listen(port, () => {})
+app.get('/', (req, res) => {
+    res.send('Hello World!')
+})
+
+app.listen(port, () => {})
