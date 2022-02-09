@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/alex-hall/southern_company_hass_addon#readme",
   "dependencies": {
+    "dotenv": "^16.0.0",
     "express": "^4.17.2",
     "southern-company-api": "^2.2.0"
   }
