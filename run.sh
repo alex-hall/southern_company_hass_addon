@@ -1,7 +1,8 @@
 #!/usr/bin/with-contenv bashio
 
-export USERNAME=$(bashio::config 'username')
-export PASSWORD=$(bashio::config 'password')
+export username=$(bashio::config 'username')
+export password=$(bashio::config 'password')
+export account=$(bashio::config 'account')
 
 
 npm run start
