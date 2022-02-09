@@ -14,5 +14,10 @@
     "username": "Your login username",
     "password": "Your login password",
     "account": "Your account ID"
+  },
+  "schema": {
+    "username": "str",
+    "password": "str",
+    "account": "str"
   }
 }
