@@ -10,9 +10,9 @@ const app = express()
 console.log(`Starting listener on port ${port}.`)
 
 const config = {
-    username: process.env.username,
-    password: process.env.password,
-    account: process.env.account
+    username: process.env.USERNAME,
+    password: process.env.PASSWORD,
+    account: process.env.ACCOUNT
 }
 
 const api = new SouthernCompanyAPI(config)
