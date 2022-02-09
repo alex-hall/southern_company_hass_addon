@@ -1,0 +1,22 @@
+{
+  "name": "southern_company_hass_addon",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alex-hall/southern_company_hass_addon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alex-hall/southern_company_hass_addon/issues"
+  },
+  "homepage": "https://github.com/alex-hall/southern_company_hass_addon#readme",
+  "dependencies": {
+    "southern-company-api": "^2.2.0"
+  }
+}

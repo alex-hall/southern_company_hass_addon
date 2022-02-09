@@ -1,3 +1,4 @@
 #!/usr/bin/with-contenv bashio
 
-echo "Hello World!"
+npm run start
+
