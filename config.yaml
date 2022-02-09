@@ -8,3 +8,6 @@ arch:
   - armhf
   - armv7
   - i386
+options:
+  - username: "Your login username"
+  - password: "Your login password"
