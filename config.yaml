@@ -9,5 +9,5 @@ arch:
   - armv7
   - i386
 options:
-  - username: "Your login username"
-  - password: "Your login password"
+  username: "Your login username"
+  password: "Your login password"
